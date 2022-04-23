@@ -7,27 +7,18 @@
 //
 //	while (nInput != 0)
 //	{
-//		// Lấy chữ số cuối của số nguyên sử dụng toán tử chia lấy dư (Modulus)
-//		nRem = nInput % 10;
-//
-//		// Nhân số đảo với 10 và cộng với chữ số cuối
-//		nSoDao = (nSoDao * 10) + nRem;
-//
-//		// Xóa chữ số cuối bằng cách sử dụng toán tử chia lấy phần nguyên (Division)
+//		nSoDao = (nSoDao * 10) + (nInput %10);
 //		nInput = nInput / 10;
 //	}
 //
 //	return nSoDao;
 //}
-//// Hàm kiểm tra một số nguyên dương n cho trước có phải là số đối xứng hay không
 //bool laSoDoiXung(int nInput)
 //{
 //	if (nInput == timSoDao(nInput))
 //		return true;
 //	else
 //		return false;
-//
-//	// <=> return (n == timSoDao(n));
 //}
 //int SUM(int n)
 //{
@@ -63,6 +54,7 @@
 //				if (laSoDoiXung(i))
 //					cout << i << " , ";
 //			}
+//			cout << endl;
 //			break;
 //		case 2:
 //			cout << " Tong so doi xung la; " << SUM(n) << endl;

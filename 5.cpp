@@ -65,7 +65,7 @@
 //			cout << " Nhap so nguyen n: ";
 //			cin >> n;
 //			cout << " Cac so hoan thien la: ";
-//			for (int i = 0; i <= n; i++)
+//			for (int i = 0; i < n; i++)
 //			{
 //				if (KT_SHT(i))
 //					cout << i << " , ";
